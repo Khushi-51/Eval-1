@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+header nav li a{
+    color: white;
+}
+header .logo img{
+    width: 100px;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    list-style: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
