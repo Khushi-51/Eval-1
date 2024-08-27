@@ -1,0 +1,29 @@
+.background{
+    background-image: url(background.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+}
+
+.profileimage{
+    margin-left:250px;
+    margin-top:40px;
+    
+    width: fit-content;
+    height:fit-content;
+    border-radius: 10%;
+    box-shadow: 2px 2px 10px 10px rgb(106, 173, 5);
+}
+.profileimage img{
+    border-radius: 10%;
+}
+.profilecontent{
+    margin-left:250px;
+}
+.profilecontent h4{
+    color:white;
+}
+.profilecontent h5{
+    color:rgb(106, 173, 5) ;
+}
