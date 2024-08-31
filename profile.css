@@ -1,29 +1,170 @@
-.background{
-    background-image: url(background.avif);
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin:0px;
-    padding:0px;
+body {
+    background-color: black;
 }
 
-.profileimage{
-    margin-left:250px;
-    margin-top:40px;
-    
+.profileimage {
+    margin-left: 250px;
+    margin-top: 40px;
     width: fit-content;
-    height:fit-content;
+    height: fit-content;
     border-radius: 10%;
     box-shadow: 2px 2px 10px 10px rgb(106, 173, 5);
+    text-align: center;
 }
-.profileimage img{
+
+.profileimage img {
     border-radius: 10%;
 }
-.profilecontent{
-    margin-left:250px;
+
+.profilecontent {
+    margin-top: 10px;
+    color: white;
 }
-.profilecontent h4{
-    color:white;
+
+.profilecontent h4 {
+    margin: 5px 0 0 0;
+    color: white;
 }
-.profilecontent h5{
-    color:rgb(106, 173, 5) ;
+
+.profilecontent h5 {
+    margin: 2px 0 0 0;
+    color: rgb(106, 173, 5);
+}
+
+.gamerinfo {
+    margin-top: 5px;
+    border: 5px solid rgb(17, 69, 17);
+    height: 500px;
+    width: 720px;
+    background-color: rgba(34, 62, 34, 0.333);
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px 10px rgba(34, 62, 34, 0.333);
+    padding: 20px; /* Add padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.gamerinfo form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.gamerinfo form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 45%; /* Adjust to fit two boxes per row */
+}
+
+.gamerinfo form .input-box span.details {
+    display: block;
+    font-weight: 200;
+    margin-bottom: 5px;
+    color: white; /* Change to white to match the theme */
+}
+
+.gamerinfo .user-details .input-box input {
+    height: 30px;
+    width: 100%; /* Make inputs fill their containers */
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.gamerinfo form .category {
+    display: flex;
+    width: 100%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.gamerinfo form .category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px; /* Adjust this to decrease spacing between labels */
+}
+
+
+.gamerinfo form .category label .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 5px; /* Decrease this value to bring labels closer */
+    background: white;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.gamerinfo form input[type="radio"] {
+    display: none;
+}
+
+.gamerinfo form .button {
+    height: 45px;
+    margin: 35px 0;
+    text-align:left; /* Center the button */
+}
+
+.gamerinfo form .button input {
+    width: 150px;
+    height:40px; /* Make the button smaller */
+    background-color: rgb(106, 173, 5);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.gamerinfo form .button input:hover {
+    background-color: rgb(80, 130, 5);
+}
+.gamerinfo form .button-group {
+    display: flex;
+    justify-content: space-between; /* Distributes space between buttons */
+    gap: 10px; /* Adds a small gap between the buttons */
+}
+
+.gamerinfo form .button-group input {
+    width: 48%; /* Adjust the width to fit both buttons on the same line */
+    height: 40px;
+    background-color: rgb(106, 173, 5);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gamerinfo form .button-group input:hover {
+    background-color: rgb(80, 130, 5);
+}
+
+/* Responsive adjustments */
+@media(max-width: 584px) {
+    .gamerinfo {
+        width: 100%;
+    }
+    .gamerinfo form .user-details .input-box {
+        width: 100%;
+    }
+}
+
+@media(max-width: 459px) {
+    .gamerinfo form .category {
+        flex-direction: column;
+    }
 }
