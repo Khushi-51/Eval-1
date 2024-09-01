@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.login-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+img {
+    width: 100px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color:rgb(52, 51, 51,0.6);
+    border-radius: 50%;
+}
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+}
+.login-container input[type="email"] {
+    border: 1px solid red;
+}
+.login-container input[type="password"] {
+    border: 1px solid #777;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #65710B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-container a {
+    color: #a8a8a8;
+    font-size: 12px;
+    text-decoration: none;
+}
+.login-container .social-login {
+    margin: 15px 0;
+}
+.login-container .social-login button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+.login-container .social-login button:last-child {
+    background-color: #fff;
+    color: #000;
+}
+.login-container .create-account {
+    margin-top: 20px;
+    
+}
+.create-account p {
+    text-align: center;
+}
+.login-container .create-account a {
+    color: #65710B;
+}
+.forgot-password{
+    color: rgb(160, 69, 69) !important;
+    float: center;
+    margin-left:  160px;
+}
+.l{
+    color: green;
+}
