@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <div class="profile-container">
-        <div class="profileimage">
-            <img src="profileimage.jpg" width="200px" height="200px">
-            <figcaption class="profilecontent">
-                <img src="flag.jpg" width="30px" height="20px">
-                <h4>JAMES BEAUFORT</h4>
-                <h5>LVL 23 | 2,756 XP</h5>
-            </figcaption>
+  <div class="header">
+    <div class="side-nav">
+      <div class="user">
+        <img src="user.png" class="user-img"><br>
+        <div>
+          <h2> JAMES BEAUFORT</h2>
+          <p>james@xyz.com</p>
         </div>
+      </div>
+      <ul>
+        <li><img src="dashboard.png" ><p>Dashboard</p></li>
+        <li><img src="reports.png" ><p>Leaderboard</p></li>
+        <li><img src="Rewards.png" ><p>Rewards</p></li>
+        <li><img src="messages.png" ><p>Messages</p></li>
+        <li><img src="members.png" ><p>Team</p></li>
+        <li><img src="setting.png" ><p>Settings</p></li>
+      </ul>
+      <ul>
+        <li><img src="logout.png"><p>Logout</p></li>
+      </ul>
+    </div>
+  </div>
+    
         <div class="gamerinfo">
             <form>
                 <div class="user-details">
@@ -33,13 +47,6 @@
                   </div><br>
                   <div class="input-box">
                     <span class="details">Phone Number
-                    <select name="phone" id="phone" required>
-                        <option value="1">+91</option>
-                        <option value="2">+1</option>
-                        <option value="3">+44</option>
-                        <option value="4">+86</option>
-                        <option value="5">+76</option>
-                    </select>
                     <input type="text" placeholder="Enter your number"  id="n4">
                     </span>
                   </div><br>
@@ -64,21 +71,18 @@
                 <div class="gender-details">
                   <input type="radio" name="gender" id="dot-1">
                   <input type="radio" name="gender" id="dot-2">
-                  <input type="radio" name="gender" id="dot-3">
-                  <span class="gender-title" style="color: white;">Gender</span>
+                  
+                  <span class="gender-title" style="color:white">Gender</span>
                   <div class="category">
                     <label for="dot-1">
                     <span class="dot one"></span>
-                    <span class="gender">Male</span>
+                    <span class="gender" style="color:white">Male</span>
                   </label>
                   <label for="dot-2">
                     <span class="dot two"></span>
-                    <span class="gender">Female</span>
+                    <span class="gender" style="color:white">Female</span>
                   </label>
-                  <label for="dot-3">
-                    <span class="dot three"></span>
-                    <span class="gender">Prefer not to say</span>
-                    </label>
+                  
                   </div>
                 </div>
                 <div class="button-group">
