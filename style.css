@@ -232,7 +232,6 @@ nav ul{
     backdrop-filter: blur(15px);
     background-color: #4d4a4a3c;
     list-style: none;
-    height: 20px;
     padding: 1rem;
     border-radius: 5px;
     /* animation: moveNav 5s ease-out infinite; */
@@ -713,17 +712,29 @@ a{
 }
 
 @media screen and (max-width: 945px) {
+    h1{
+        font-size: 34px !important;
+    }
     header{
         position: relative;
+        height: auto !important;
     }
     .logo img {
         width: 120px;
     }
 
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     .nav-side {
         display: flex;
@@ -732,7 +743,10 @@ a{
     }
 
     .login {
-        margin-right: 20px;
+        top: 0 !important;
+        right: 0 !important;
+        position: absolute;
+        float: right !important;
     }
 }
 
@@ -741,25 +755,44 @@ a{
         font-size: 18px;
     }
 
-
+    .logo img {
+        width: 90px;
+    }
     .nav-side .login {
         margin-left: 0;
     }
-
     header {
         flex-direction: column;
         align-items: flex-start;
-        d
+        height: auto;
     }
 }
 
 
 @media screen and (max-width: 400px) {
-    
+    h1{
+        font-size: 14px !important;
+    }
     header {
         flex-direction: column;
         align-items: flex-start;
     }
+    .events img{
+        width: 70% !important;
+    }
+    .nav-b{
+        width: 100vw !important;
+        align-items: center;
+        height: 100%;
+    }
+        nav ul {
+            flex-direction: column;
+            align-items: center !important;
+        }
+        nav ul li ul{
+            width: min-content !important;
+            position: relative;
+        }
     .logo img {
         width: 80px;
     }
