@@ -18,7 +18,6 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
 header {
     box-sizing: border-box;
     min-height: 100vh;
