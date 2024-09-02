@@ -76,7 +76,7 @@ header {
 
 .rule-card:hover .rule-title,
 .rule-card:hover p {
-    color: #CEFF00;
+    color:rgb(173, 171, 171);
 }
 
 @keyframes fadeIn {
