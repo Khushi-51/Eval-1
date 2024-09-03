@@ -2,6 +2,9 @@ body{
     color: white;
     background-color: #0b0b0b;
 }
+a{
+    color: #ffffff;
+}
 .character-container {
     position: fixed;
     bottom: 5px;
@@ -355,7 +358,7 @@ button{
     float: left;
     height: 516px;
     width: 1456px;
-    animation: sl 25s linear infinite;
+    animation: sl 30s linear infinite;
     animation-direction: normal !important;
     position: relative;
     background-color: #0b0b0b; 
