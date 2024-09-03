@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 .container h1:hover{
-    color:#00ff00
+    color:greenyellow;
 }
 .leaderboard-title {
     font-size: 100px;
