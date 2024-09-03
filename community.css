@@ -103,7 +103,7 @@ body {
     height: 145px;
     position: absolute;
     left: 50%;
-    top: 10%;
+    top: 0%;
     transform: translate(-50%, -50%) rotateY(0deg);
     animation: rotate-logo 10s infinite linear;
 }
@@ -174,4 +174,63 @@ body {
 
 .icon-info .btn:hover {
     background-color: #5a6268;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8A9C94; 
+    border: none;
+    color: #2D3131; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn img {
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px;
+}
+
+.btn:hover {
+    background-color: #7A8C84; 
+    color: #1D1F1F; 
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 2px #8A9C94; 
+}
+.btn{
+    height: 15%;
+}
+.btn #id_discord{
+    position: absolute !important;
+    left: 0;
+    top: 0;
+}
+#id_steam{
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+}
+id_tiktok{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+#id_x{
+    bottom: 0 !important;
+    position: absolute !important;
+    right: 0;
+}
+.icon-info{
+    height: 100%;
 }
