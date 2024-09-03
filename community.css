@@ -1,9 +1,11 @@
+/* Global Styles */
 body {
     background-color: #000 !important;
     color: #fff !important;
     font-family: Arial, sans-serif;
 }
 
+/* Header */
 .update-header {
     text-transform: uppercase;
     font-size: 3rem;
@@ -16,6 +18,7 @@ body {
     color: #888;
 }
 
+/* Update Section */
 .update {
     padding: 20px 0;
 }
@@ -39,27 +42,31 @@ body {
 .description {
     font-size: 1rem;
 }
+
 .divider-line {
     height: 0.25px;
     background-color: #ffffffa5;
     width: 80%;
     margin-bottom: 15px;
 }
-.news{
+
+/* News Section */
+.news {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5%;
     width: 100%;
-
 }
-#n1, #n2{
+
+#n1, #n2 {
     display: flex;
     width: 100%;
     align-items: center !important;
     justify-content: space-around;
-    
 }
+
+/* Social Section */
 .social {
     background-color: #000;
     color: #fff;
@@ -71,11 +78,13 @@ body {
     overflow: hidden;
 }
 
+/* Carousel Container */
 .carousel-container {
     position: relative;
     text-align: center;
 }
 
+/* Carousel Text */
 .carousel-text {
     font-size: 3rem;
     font-weight: bold;
@@ -86,25 +95,31 @@ body {
     position: relative;
     margin-top: 20px;
 }
-.carousel-icons{
+
+/* Carousel Icons */
+.carousel-icons {
     background-color: #fff;
     width: 145px;
     height: 145px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 10%;
     transform: translate(-50%, -50%) rotateY(0deg);
     animation: rotate-logo 10s infinite linear;
 }
+
 .carousel-icons img {
     width: 150px;
     height: 150px;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) rotateY(0deg);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: image-fade 9s infinite;
 }
 
+/* Animations */
 @keyframes rotate-logo {
     0% {
         transform: translate(-50%, -50%) rotateY(0deg);
@@ -114,6 +129,24 @@ body {
     }
 }
 
+@keyframes image-fade {
+    0%, 33% {
+        opacity: 1;
+    }
+    34%, 100% {
+        opacity: 0;
+    }
+}
+
+.carousel-icons img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.carousel-icons img:nth-child(3) {
+    animation-delay: 6s;
+}
+
+/* Icon Info */
 .icon-info {
     display: flex;
     justify-content: space-around;
