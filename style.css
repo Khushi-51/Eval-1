@@ -985,7 +985,8 @@ a{
 }
 @media (max-width: 768px) {
     .character-container {
-        width: 250px;
+        height: 100px;
+        right: 0px !important;
     }
 
     .chat-container {

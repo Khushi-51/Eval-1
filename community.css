@@ -1,0 +1,144 @@
+body {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family: Arial, sans-serif;
+}
+
+.update-header {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.update-header span {
+    font-size: 1rem;
+    color: #888;
+}
+
+.update {
+    padding: 20px 0;
+}
+
+.update img {
+    width: 100%;
+    height: auto;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+}
+.divider-line {
+    height: 0.25px;
+    background-color: #ffffffa5;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+
+}
+#n1, #n2{
+    display: flex;
+    width: 100%;
+    align-items: center !important;
+    justify-content: space-around;
+    
+}
+.social {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 10;
+    width: 35%;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+.carousel-icons{
+    background-color: #fff;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    animation: rotate-logo 10s infinite linear;
+}
+.carousel-icons img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+}
+
+@keyframes rotate-logo {
+    0% {
+        transform: translate(-50%, -50%) rotateY(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateY(360deg);
+    }
+}
+
+.icon-info {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    left: 0;
+    padding: 0 10px;
+    z-index: 10;
+}
+
+.icon-info .btn {
+    display: flex;
+    align-items: center;
+    background-color: #6c757d;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.icon-info .btn img {
+    margin-right: 10px;
+}
+
+.icon-info .btn:hover {
+    background-color: #5a6268;
+}
