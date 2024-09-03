@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(./assests/VAL_RANT.PNG);
+    background-image: url("/assests/VAL_RANT.PNG");
     background-size: cover;
     background-position: center;
     margin: 0;
