@@ -41,6 +41,9 @@ h1 {
     background-color: transparent;
     border-color: #c0ff00;
 }
+.btn-group a{
+    text-decoration: none;
+}
 
 .searchbar .form-inline {
     display: flex;
@@ -117,7 +120,8 @@ h1 {
 
 .download-btn {
     background-color: transparent;
-    border: none;
+    border: 1px solid #8ff442;
+    border-radius:100%;
     color: #8ff442;
     font-size: 1.5em;
 }
