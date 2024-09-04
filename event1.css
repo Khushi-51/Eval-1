@@ -10,14 +10,14 @@ body {
     
 }
 .lines{
-    margin-top: 400px;
+    margin-top: 330px;
     height: 188.4vw;
     width: 1px;
     background-color: white;
 }
 .bottom-line{
     position: absolute;
-    margin-top: 252vw;
+    margin-top: 248vw;
     height: 10vw;
     width:2px;
     background-color: white;
