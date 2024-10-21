@@ -5,6 +5,62 @@ body{
 a{
     color: #ffffff;
 }
+.overlayy {
+    position: fixed;
+    width: 100vw;
+    height: 180vw !important; /* Fixed the height to cover the full viewport */
+    z-index: 20000;
+    display: flex;
+    background-image: url("/images/s3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top: 7px solid black;
+    border-bottom: 2px solid black;
+   margin-top: -145px;
+   margin-left: -12px;
+}
+
+.bar {
+    width: 10vw;
+    height: 180vh;
+    border-right: 0.5px solid rgba(198, 187, 187, 0.649);
+    background-color: rgba(0, 0, 0, 0.423);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.yo {
+    position: initial;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    color: #0b0b0b;
+    font-size: 4rem;
+
+    font-weight: 700;
+    opacity: 1; /* Initially hidden */
+}
+
+.counter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 20001 !important;
+    color: #00b4d8 !important;
+    padding: 0 2em 0 4em;
+    font-size: 20vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hide-loader {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 200s ease-out; /* Smoothly fades out the loader */
+}
+
 .character-container {
     position: fixed;
     bottom: 5px;

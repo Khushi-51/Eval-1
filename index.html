@@ -5,23 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elysium</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
 </head>
 <body>
-    <header>  
-        <div class="logo">
-            <img src="/images/esports_logo_transparent.png">
-            <h1>Elysium</h1>
+    <div id="loader">
+
+        <h2 class="counter">0</h2>
+        <div class="overlayy">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"><h1 class="yo">E</h1></div>
+        <div class="bar"><h1 class="yo">L</h1></div>
+        <div class="bar"><h1 class="yo">Y</h1></div>
+        <div class="bar"><h1 class="yo">S</h1></div>
+        <div class="bar"><h1 class="yo">I</h1></div>
+        <div class="bar"><h1 class="yo">U</h1></div>
+        <div class="bar"><h1 class="yo">M</h1></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        </div>
+    </div>
+        <header>  
+            <div class="logo">
+                <img src="/images/esports_logo_transparent.png">
+            <h1 class="h1">Elysium</h1>
         </div>
         <nav>
             <div class="nav-b">
-
+                
                 <!-- <div class="character1"> -->
                     <!-- <img src="/images/ibuki.gif"> -->
                 <!-- </div>                 -->
                 <ul>
                     <li><a>Game Info</a>
-                    <ul>
-                        <li><a>Game Modes</a></li>
+                        <ul>
+                            <li><a>Game Modes</a></li>
                         <li><a>Weapons</a></li>
                         <li><a>Skins</a></li>
                         <li><a>Maps</a></li>
@@ -41,12 +67,12 @@
                 </li>
                 <li><a href="/Profile.html">Account</a></li>
             </ul>
-            </div>
-        </nav>
+        </div>
+    </nav>
         <div class="nav-side">
         <div class="login">
             <a href="/login.html">
-
+                
                 <div class="button-container">
                     <div class="icon"></div>
                     <div class="play-button">
@@ -81,15 +107,15 @@
                 
             </div>
         </div>        
-
+        
         <div class="brands">
             <div class="items">
-            <div class="item"><img src="https://api.aexlab.com/uploads/CB_91cdfc1265.webp" height="75px"></div>
-            <div class="item"><img src="https://api.aexlab.com/uploads/IVRL_1_5cc19463ec.webp" height="75px"></div>
-            <div class="item"><img src="https://api.aexlab.com/uploads/IVRL_7170a139d0.webp" height="75px"></div>
-            <div class="item"><img src="https://api.aexlab.com/uploads/Liquid_67c76563f6.webp" height="75px"></div>
-            <div class="item"><img src="https://api.aexlab.com/uploads/Li_V_75fa5918fd.webp" height="75px"></div>
-            <div class="item"><img src="https://api.aexlab.com/uploads/Olen_a99b3f9dba.webp" height="75px"></div>
+                <div class="item"><img src="https://api.aexlab.com/uploads/CB_91cdfc1265.webp" height="75px"></div>
+                <div class="item"><img src="https://api.aexlab.com/uploads/IVRL_1_5cc19463ec.webp" height="75px"></div>
+                <div class="item"><img src="https://api.aexlab.com/uploads/IVRL_7170a139d0.webp" height="75px"></div>
+                <div class="item"><img src="https://api.aexlab.com/uploads/Liquid_67c76563f6.webp" height="75px"></div>
+                <div class="item"><img src="https://api.aexlab.com/uploads/Li_V_75fa5918fd.webp" height="75px"></div>
+                <div class="item"><img src="https://api.aexlab.com/uploads/Olen_a99b3f9dba.webp" height="75px"></div>
             <div class="item"><img src="https://api.aexlab.com/uploads/Smash_3d225c002d.webp" height="75px"></div>
             <div class="item"><img src="https://api.aexlab.com/uploads/Superbluer_247b79909f.webp" height="75px"></div>
             <div class="item"><img src="https://api.aexlab.com/uploads/VRML_77b126d233.webp" height="75px"></div>
@@ -118,7 +144,7 @@
         </div>
         </div>
         <div class="games">
-
+            
             <h1>GAMES</h1>
             <a href="/index 2.html">
                 <div class="cards">
@@ -134,7 +160,7 @@
                 </div>
             </a>
             <a href="/index 3.html">
-
+                
                 <div class="card">
                     <img src="/images/street fighter 6.webp">
                     <figcaption>Street Fighter 6</figcaption>
@@ -255,7 +281,7 @@
                     </select>
                     <input type="text" id="customSearchByName" placeholder="Search by name">
                 </div>
-            
+                
                 <div class="custom-slider-container">
                     <div class="custom-slider">
                         <!-- Slide 1 -->
@@ -266,17 +292,17 @@
                                      <img src="images/tour2.webp" alt="Event Image">
                                      <div class="custom-event-info">
                                          <h3>TEC SHOWDOWN SERIES-SEASON 4</h3>
-                                    <p>Game Mode: Single Elimination</p>
-                                    <p>Platform: <span>&#128187;</span></p>
-                                    <p><span>&#127942;</span> INR 1,00,000</p>
-                                    <p><span>&#128101;</span> 5 of 128</p>
-                                    <button class="custom-status-btn custom-upcoming">UPCOMING</button>
-                                    <p class="custom-event-date">5 Sept 2024</p>
-                                     </div>
-                                </div>
+                                         <p>Game Mode: Single Elimination</p>
+                                         <p>Platform: <span>&#128187;</span></p>
+                                         <p><span>&#127942;</span> INR 1,00,000</p>
+                                         <p><span>&#128101;</span> 5 of 128</p>
+                                         <button class="custom-status-btn custom-upcoming">UPCOMING</button>
+                                         <p class="custom-event-date">5 Sept 2024</p>
+                                        </div>
+                                    </div>
                             </div>
                         </a>
-            
+                        
                         <!-- Slide 2 -->
                         <div class="custom-slide">
                             <div class="custom-card">
@@ -351,17 +377,17 @@
             <div id="chat-header">
                 🤖 YOUR ESPORTS BUDDY
             </div>
-          <div class="chat-box">
-            <div class="message bot">Hello! How can I assist you today?</div>
-            
-            <div class="message-bot"></div>
+            <div class="chat-box">
+                <div class="message bot">Hello! How can I assist you today?</div>
+                
+                <div class="message-bot"></div>
             </div>
-          <input type="text" id="chat-input" placeholder="Type your message...">
+            <input type="text" id="chat-input" placeholder="Type your message...">
           <button id="send-button">Send</button>
         </div>
         <label for="toggle-chat" class="close-chat-overlay"></label>
-      </div>
-
+    </div>
+    
     
     <footer>
         <div class="sections">
@@ -416,5 +442,6 @@
     </footer>
     <hr>
     <script src="chatbot.js"></script>
+    <script src="page-loader.js"></script>
 </body>
 </html>
