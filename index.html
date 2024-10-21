@@ -344,27 +344,30 @@
     <div class="character-container">
         <input type="checkbox" id="toggle-chat" hidden>
         <label for="toggle-chat" class="character">
-            <img src="/images/kurosawa2.gif" alt="Character Image">
-            <div class="message bot">Hello! How can I assist you today?</div>
+          <img src="/images/kurosawa2.gif" alt="Character Image">
+          <div class="message bot">Hello! How can I assist you today?</div>
         </label>
         <div class="chat-container">
-            <div class="chat-box">
-                <div class="message bot">Hello! How can I assist you today?</div>
-                <div class="message user">What's the latest update in the game?</div>
-                <!-- More static messages can be added here -->
+            <div id="chat-header">
+                🤖 YOUR ESPORTS BUDDY
             </div>
-            <input type="text" placeholder="Type your message...">
-            <button>Send</button>
+          <div class="chat-box">
+            <div class="message bot">Hello! How can I assist you today?</div>
+            
+            <div class="message-bot"></div>
+            </div>
+          <input type="text" id="chat-input" placeholder="Type your message...">
+          <button id="send-button">Send</button>
         </div>
         <label for="toggle-chat" class="close-chat-overlay"></label>
-    </div>
+      </div>
 
     
     <footer>
         <div class="sections">
             <div class="heading">AEXLAB:</div>
             <div class="index">
-                <a href="#">INDEX</a>
+                <a href="/index.html">INDEX</a>
                 <a href="#">PRESS</a>
                 <a href="#">CAREER</a>
                 <a href="#">FAQ</a>
@@ -375,7 +378,7 @@
             <div class="heading">VAIL VR:</div>
             <div class="index_in">
                 <div class="index">
-                    <a href="#">INDEX</a>
+                    <a href="/index.html">INDEX</a>
                     <a href="#">GAME MODES</a>
                     <a href="#">WEAPONS</a>
                     <a href="#">SKINS</a>
@@ -383,10 +386,10 @@
                     <a href="#">LORE</a>
                 </div>
                 <div class="index">
-                    <a href="#">LEADERBOARD</a>
+                    <a href="/leaderboard.html">LEADERBOARD</a>
                     <a href="#">ESPORTS</a>
-                    <a href="#">GAME UPDATES</a>
-                    <a href="#">MEDIA KIT</a>
+                    <a href="/community.html">GAME UPDATES</a>
+                    <a href="/mediakit.html">MEDIA KIT</a>
                     <a href="#">MERCH</a>
                 </div>
             </div>
@@ -412,5 +415,6 @@
         </div>
     </footer>
     <hr>
+    <script src="chatbot.js"></script>
 </body>
 </html>
