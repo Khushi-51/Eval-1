@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(./assests/BGMI1.WEBP);
+    background-image: url("/assests/BGMI1.WEBP");
     background-size: cover;
     background-position: center;
     margin: 0;
