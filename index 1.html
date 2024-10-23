@@ -16,7 +16,7 @@
     </div>
     <div class="container">
         <h3>Registration Form</h3>
-        <form id="registration-form" action="#" method="post">
+        <form id="registration-form" action="#" method="get">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
             <label for="age">Age</label>
@@ -34,18 +34,28 @@
             <label for="game-id">Game ID</label>
             <input type="text" id="game-id" name="game-id" required>
             <div class="btn">
-                <a href="index_7.html">
-
-                    <button type="submit">Register</button>
-                </a>
+            <button type="submit" onclick="redirectToPage()">Register</button>
             </div>
         </form>
     </div>
     <script>
-        <button onclick="window.location.href='index_7.html'">Register</button>
         function validateNumericInput(input) {
             input.value = input.value.replace(/[^0-9]/g, ''); // Only allow numbers
+
+            
+//         const form = document.querySelector("#registration-form");
+
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault(); 
+//     console.log("Registration Submitted!");
+//     window.location.href = 'index_7.html'; 
+// });
+
         }
+        
+  function redirectToPage() {
+    window.location.href = 'index_7.html';
+  }
     </script>
 </body>
 </html>
