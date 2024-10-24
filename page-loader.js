@@ -6,12 +6,11 @@ window.addEventListener('load', function() {
         let currentValue = 0;
 
         function updateCounter() {
-            if (currentValue === 8) {
+            if (currentValue === 2) {
                 return;
             }
             counterElement.textContent = currentValue;
             currentValue++;
-            
             let delay = Math.floor(Math.random() * 200) + 50;
             setTimeout(updateCounter, delay);
         }
@@ -24,7 +23,7 @@ window.addEventListener('load', function() {
 
     // GSAP animations for bars and text
     gsap.to(".counter", 0.25, {
-        delay: 1,  // Reduce delay to sync better with the counter
+        delay: 1,  
         opacity: 1,
     });
 
@@ -85,3 +84,8 @@ window.addEventListener('load', function() {
         document.getElementById('loader').style.display = 'none';
     }, 5000 + pauseAfterBars);  // Final removal of loader
 });
+
+
+
+
+
