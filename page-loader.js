@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
 
-    // Function to start the counter animation
+   
     function startLoader() {
         let counterElement = document.querySelector(".counter");
         let currentValue = 0;
@@ -18,10 +18,7 @@ window.addEventListener('load', function() {
         updateCounter();
     }
 
-    // Start the counter animation
     startLoader();
-
-    // GSAP animations for bars and text
     gsap.to(".counter", 0.25, {
         delay: 1,  
         opacity: 1,
@@ -38,32 +35,29 @@ window.addEventListener('load', function() {
     });
 
     gsap.to(".yo", 1.5, {
-        delay: 2.5,  // Start animating after 2.5 seconds
-        opacity: 1,  // Fade in the letters
-        scale: 2.2,  // Slightly scale up the letters for emphasis
-        duration: 1.3,  // Duration of the animation
-        stagger: 0.3,  // Stagger each letter by 0.2s
-        ease: "back.out(1.7)",  // A smooth spring-like easing
+        delay: 2.5,  
+        opacity: 1,  
+        scale: 2.2,  
+        duration: 1.3,
+        stagger: 0.3, 
+        ease: "back.out(1.7)",  
         onComplete: function() {
             gsap.to(".yo",{
-                scale: 1,  // Return to original size
-                duration: 0.5,  // Smooth return to normal size
-                stagger: 0.1,  // Stagger each letter by 0.2s
+                scale: 1,  
+                duration: 0.5,
+                stagger: 0.1, 
                 ease: "power2.inOut",
             });
         }
     });
 
-    // Adding a pause duration after the bars animation
-    const barsAnimationDuration = 1.5; // Duration of bars animation
-    const pauseAfterBars = 2500; // 2 seconds pause after bars animation
+    const barsAnimationDuration = 1.5; 
+    const pauseAfterBars = 2500; 
 
-    // Delay before hiding loader and revealing content
     setTimeout(function() {
         document.getElementById('loader').classList.add('hide-loader');
-    }, 5000 + pauseAfterBars);  // Ensure this happens after all animations and pause
+    }, 5000 + pauseAfterBars);  
 
-    // Delay for header and main animations
     setTimeout(function() {
         gsap.from("header", 1.5, {
             y: 400,
@@ -77,12 +71,10 @@ window.addEventListener('load', function() {
             y: -900,
             ease: "power4.inOut",
         });
-    }, 5000 + pauseAfterBars);  // Show header and main after delays
-
-    // Final removal of loader after the pause
+    }, 5000 + pauseAfterBars);
     setTimeout(function() {
         document.getElementById('loader').style.display = 'none';
-    }, 5000 + pauseAfterBars);  // Final removal of loader
+    }, 5000 + pauseAfterBars); 
 });
 
 
