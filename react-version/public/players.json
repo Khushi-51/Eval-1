@@ -1,0 +1,141 @@
+{
+    "players": [
+      {
+        "rank": 1,
+        "name": "Poise RICH",
+        "score": "16,776,038",
+        "winPercentage": "76.34%",
+        "kda": "2.26",
+        "tp": "338.81"
+      },
+      {
+        "rank": 2,
+        "name": "n0ch",
+        "score": "14,958,914",
+        "winPercentage": "74.62%",
+        "kda": "2.93",
+        "tp": "278.76"
+      },
+      {
+        "rank": 3,
+        "name": "1vil zenu",
+        "score": "14,757,729",
+        "winPercentage": "75.61%",
+        "kda": "2.26",
+        "tp": "361.97"
+      },
+      {
+        "rank": 4,
+        "name": "Zephyr",
+        "score": "13,234,001",
+        "winPercentage": "71.45%",
+        "kda": "1.98",
+        "tp": "300.23"
+      },
+      {
+        "rank": 5,
+        "name": "Krevox",
+        "score": "12,988,321",
+        "winPercentage": "73.12%",
+        "kda": "2.43",
+        "tp": "255.67"
+      },
+      {
+        "rank": 6,
+        "name": "LunarEclipse",
+        "score": "12,876,555",
+        "winPercentage": "72.18%",
+        "kda": "2.15",
+        "tp": "312.44"
+      },
+      {
+        "rank": 7,
+        "name": "VortexStrike",
+        "score": "12,675,003",
+        "winPercentage": "70.39%",
+        "kda": "2.56",
+        "tp": "298.12"
+      },
+      {
+        "rank": 8,
+        "name": "PhantomWolf",
+        "score": "12,234,122",
+        "winPercentage": "68.95%",
+        "kda": "1.89",
+        "tp": "290.33"
+      },
+      {
+        "rank": 9,
+        "name": "BlazeHeart",
+        "score": "11,912,887",
+        "winPercentage": "66.71%",
+        "kda": "2.04",
+        "tp": "278.14"
+      },
+      {
+        "rank": 10,
+        "name": "ShadowFury",
+        "score": "11,756,000",
+        "winPercentage": "65.88%",
+        "kda": "2.47",
+        "tp": "267.88"
+      },
+      {
+        "rank": 11,
+        "name": "RogueHunter",
+        "score": "11,612,223",
+        "winPercentage": "66.34%",
+        "kda": "2.01",
+        "tp": "275.56"
+      },
+      {
+        "rank": 12,
+        "name": "CrimsonBlade",
+        "score": "11,456,789",
+        "winPercentage": "64.89%",
+        "kda": "1.76",
+        "tp": "263.34"
+      },
+      {
+        "rank": 13,
+        "name": "NebulaStorm",
+        "score": "11,345,222",
+        "winPercentage": "63.77%",
+        "kda": "2.12",
+        "tp": "248.99"
+      },
+      {
+        "rank": 14,
+        "name": "ThunderFlash",
+        "score": "11,001,345",
+        "winPercentage": "62.91%",
+        "kda": "2.31",
+        "tp": "255.12"
+      },
+      {
+        "rank": 15,
+        "name": "IronClaw",
+        "score": "10,876,998",
+        "winPercentage": "61.88%",
+        "kda": "2.03",
+        "tp": "244.23"
+      },
+      {
+        "rank": 16,
+        "name": "GalaxyWarden",
+        "score": "10,645,776",
+        "winPercentage": "60.76%",
+        "kda": "1.85",
+        "tp": "238.45"
+      },
+      {
+        "rank": 17,
+        "name": "NightStalker",
+        "score": "10,432,110",
+        "winPercentage": "59.62%",
+        "kda": "1.92",
+        "tp": "223.12"
+      }
+    ]
+  }
+  

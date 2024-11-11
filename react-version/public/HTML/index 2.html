@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/CSS/style 2.css">
+    
+
+</head>
+<body>
+    <div class="Login">
+        <div class="text-box">
+        <h6>VALVO<span></span>RANT</h6>  
+    </div>
+    </div>
+    <div class="container">
+        <h3>Registration Form</h3>
+        <form id="registration-form" action="/HTML/index_7.html" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+
+                <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="game-id">Game ID</label>
+            <input type="text" id="game-id" name="game-id" required>
+            <div class="btn">
+            <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function validateNumericInput(input) {
+            input.value = input.value.replace(/[^0-9]/g, ''); // Only allow numbers
+        }
+    </script>
+</body>
+</html>

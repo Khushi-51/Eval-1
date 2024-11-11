@@ -1,0 +1,135 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-weight: bolder !important;
+    letter-spacing: 2px;
+}
+
+.btn-border {
+    border: 1px solid transparent;
+    width: auto;
+    height: 45px;
+    background-color: rgb(27, 27, 27);
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.btn-group .btn {
+    border-radius: 0;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #f1eee9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.btn-group .btn-dark {
+    background-color: rgb(27, 27, 27);
+    margin-right: 5px;
+}
+
+.btn-group .btn:hover {
+    color: #c0ff00;
+    background-color: transparent;
+    border-color: #c0ff00;
+}
+.btn-group a{
+    text-decoration: none;
+}
+
+.searchbar .form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar .form-control {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.searchbar .form-control::placeholder {
+    color: #bbb;
+}
+
+.searchbar .btn-outline-success {
+    color: #8ff442;
+    border-color: #8ff442;
+}
+
+.searchbar .btn-outline-success:hover {
+    background-color: #8ff442;
+    color: #000;
+}
+
+.card {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    background-color: #111;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.card img:hover {
+    transform: scale(1.10); /* Zoom out slightly */
+}
+
+.card-image-container {
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    
+    color: #fff;
+    font-size: 1em;
+    width: 100%;
+}
+
+.overlay-text h5 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.overlay-text p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #ccc; /* Light gray color for file size text */
+}
+
+.download-btn {
+    background-color: transparent;
+    border: 1px solid #8ff442;
+    border-radius:100%;
+    color: #8ff442;
+    font-size: 1.5em;
+}
+
+.download-btn:hover {
+    color: #8ff442;
+}
+
+.container {
+    max-width: 1140px;
+}
